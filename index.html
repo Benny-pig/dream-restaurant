@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#1c1614" />
+    <!-- 樣式表延遲載入:先內嵌底色,避免載入時閃白 -->
+    <style>html,body{background:#1c1614;height:100%;margin:0;overflow:hidden}#boot-splash{z-index:9999;color:#c8a25a;background:radial-gradient(at 50% 46%,#33271f 0%,#1c1614 72%);flex-direction:column;justify-content:center;align-items:center;gap:18px;font-family:system-ui,-apple-system,Noto Sans TC,Microsoft JhengHei,sans-serif;transition:opacity .3s;display:flex;position:fixed;inset:0}#boot-splash.out{opacity:0;pointer-events:none}#boot-splash .bs-mark{border:3px solid #c8a25a47;border-top-color:#c8a25a;border-radius:50%;width:72px;height:72px;animation:1.1s linear infinite bs-spin;position:relative}#boot-splash .bs-mark:after{content:"";border:2px solid #f3eadc8c;border-radius:50%;position:absolute;inset:14px}#boot-splash .bs-name{letter-spacing:.18em;text-indent:.18em;color:#e8cf94;font-size:28px;font-weight:700}#boot-splash .bs-text{letter-spacing:.12em;color:#a89a86;font-size:14px;animation:1.6s ease-in-out infinite bs-pulse}@keyframes bs-spin{to{transform:rotate(360deg)}}@keyframes bs-pulse{0%,to{opacity:.45}50%{opacity:1}}@media (prefers-reduced-motion:reduce){#boot-splash .bs-mark,#boot-splash .bs-text{animation:none}}</style>
+    <title>夢幻西餐廳</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231c1614'/><circle cx='16' cy='17' r='9' fill='none' stroke='%23c8a25a' stroke-width='2.5'/><path d='M10 6.5h12' stroke='%23f3eadc' stroke-width='2.5' stroke-linecap='round'/></svg>" />
+    <script type="module" crossorigin src="./assets/index-DPPv4lRL.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/CanvasPool-ADgchDYy.js">
+    <link rel="modulepreload" crossorigin href="./assets/canvasUtils-XYxewFj2.js">
+    <link rel="modulepreload" crossorigin href="./assets/RenderTargetSystem-7gK5U27P.js">
+    <link rel="modulepreload" crossorigin href="./assets/getTextureBatchBindGroup-B7fcsu1p.js">
+    <link rel="modulepreload" crossorigin href="./assets/getTexelRangeRects-DzI32RVX.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-B2jmHny8.css">
+  </head>
+  <body>
+    <div id="boot-splash" role="status" aria-live="polite"><div class="bs-mark"></div><b class="bs-name">夢幻西餐廳</b><span class="bs-text">載入中…</span></div>
+    <div id="app">
+      <div id="stage"></div>
+      <div id="ui"></div>
+    </div>
+  </body>
+</html>
